@@ -1,0 +1,6 @@
+framework module ZKHotReloadiOS {
+  umbrella header "ZKHotReloadiOS.h"
+
+  export *
+  module * { export * }
+}
