@@ -17,7 +17,9 @@ pod 'ZKHotReload', :configurations => ['Debug']
 
 AppDelegate
 ```
+#if DEBUG
 import ZKHotReloadiOS
+#endif
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
