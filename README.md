@@ -30,3 +30,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+### 4、使用方式
+
+修改代码 -> command+s 保存 -> UI HotReload
