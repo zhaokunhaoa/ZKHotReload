@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKHotReload'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZKHotReload.'
+  s.version          = '0.1.1'
+  s.summary          = 'HotReload for Xcode'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+HotReload for Xcode, for iOS Developer
                        DESC
   s.homepage         = 'https://github.com/zhaokunhaoa/ZKHotReload'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'zhaokun' => 'zhaokunhaoa@163.com' }
   s.source           = { :git => 'https://github.com/zhaokunhaoa/ZKHotReload.git', :tag => s.version.to_s }
 
