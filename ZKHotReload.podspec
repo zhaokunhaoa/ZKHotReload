@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZKHotReload'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'HotReload for Xcode'
 
 # This description is used to generate tags and improve search results.
